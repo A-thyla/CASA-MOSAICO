@@ -237,3 +237,140 @@ a {
 }
 
 /*fim sessao 1*/
+
+/* Media Queries para Xiaomi Poco X6 Pro e dispositivos mobile */
+
+@media (max-width: 480px) {
+    
+    /* Estilos Cabeçalho - Mobile */
+    .header {
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: flex-start;
+    }
+    
+    .header .logo a img {
+        height: 40px;
+        width: 40px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    
+    .header .nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .header .nav ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .header .nav ul li a {
+        font-size: 12px;
+    }
+    
+    /* Estilos Main - Mobile */
+    #main-content {
+        height: auto;
+        flex-direction: column;
+        padding: 80px 10px 30px;
+    }
+    
+    #title-main {
+        margin-top: 20px;
+        font-size: 48px;
+        padding: 0 10px;
+        text-align: center;
+    }
+    
+    #sub-title-main {
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #main-content img {
+        height: 300px;
+        width: 300px;
+        margin-left: 0;
+        margin: 20px auto;
+    }
+    
+    #main-text {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        font-size: 14px;
+        color: white;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    
+    #localização-button {
+        width: 90%;
+        height: 45px;
+        font-size: 14px;
+        margin: 20px 5%;
+    }
+    
+    #localização-button:hover {
+        width: 90%;
+    }
+    
+    /* Estilos Galeria - Mobile */
+    .gallery {
+        padding-bottom: 50px;
+        padding: 20px 10px 50px;
+    }
+    
+    .gallery h2 {
+        font-size: 48px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .gallery h3 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    
+    .images {
+        gap: 50px;
+        padding: 20px 10px;
+    }
+    
+    .image-container {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .images img {
+        max-width: 250px;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .image-container label {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    
+    #text2 {
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 0;
+        margin-top: 30px;
+        padding: 20px 10px;
+    }
+    
+    #text2 p {
+        font-size: 14px;
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
