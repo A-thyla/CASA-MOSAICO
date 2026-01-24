@@ -238,6 +238,63 @@ a {
 
 /*fim sessao 1*/
 
+/*comeco footer*/
+.footer {
+    background-color: rgb(49, 55, 59);
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    font-family: "Pragmatica Extended", sans-serif;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-media {
+    margin-bottom: 20px;
+    padding: 20px 0;
+    
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-media h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.social-icon:hover {
+    background-color: #1470af;
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.social-icon svg {
+    width: 20px;
+    height: 20px;
+}
+/*fim footer*/
+
 /* Media Queries para Xiaomi Poco X6 Pro e dispositivos mobile */
 
 @media (max-width: 480px) {
@@ -364,7 +421,7 @@ a {
         width: 100%;
         padding-top: 30px;
         padding-left: 0;
-        margin-top: 30px;
+        margin-top: 150px;
         padding: 20px 10px;
     }
     
